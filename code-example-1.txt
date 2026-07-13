@@ -1,0 +1,43 @@
+// print bools with logical operations
+x = 1;
+y = 2;
+output(x < y);
+output(x == y);
+
+// numerical operations
+output(x + y * 2)
+
+// for loop - with if/else and print string
+i = 0;
+for (i = 0; i < 10; i + 1) {
+  if (i % 2 == 0) {
+    output("even");
+  } else {
+    output("odd");
+  }
+}
+
+// if statement, logical operations
+age = 20;
+if (age >= 18 && age < 65) {
+  output("working age");
+}
+
+// string concatination
+name = "corey";
+output("hello, " + name + "!");
+
+// function and recursion
+fn factorial(n) {
+  if (n <= 1) {
+    return 1;
+  }
+  return n * factorial(n - 1);
+}
+
+output(factorial(5));
+
+// array with literals, indexing, length
+nums = [10, 20, 30];
+output(nums[0]);
+output(len(nums));
